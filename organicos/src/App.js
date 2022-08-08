@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+import fondo from './fondo.jpg';
 import './App.css';
 import Menu from './components/Menu'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" style={{ backgroundImage: "url("+fondo+")", backgroundSize: "cover" }}>
         <Menu />
-        {/*<img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/*<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a

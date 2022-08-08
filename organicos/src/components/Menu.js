@@ -1,5 +1,7 @@
 import MenuItem from './MenuItem'
 
+import '../styles/Menu.css';
+
 function Menu(){
 	return(
 		<nav>

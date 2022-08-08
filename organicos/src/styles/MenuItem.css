@@ -4,13 +4,15 @@ li{
 
 li a {
   /*display: block;*/
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #333;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 12pt;
+  transition: all ease .25s;
 }
 
 li a:hover {
-  background-color: #111;
+  color: orangered;
+  border-bottom: 5px orangered solid;
+  background-color: moccasin;
 }

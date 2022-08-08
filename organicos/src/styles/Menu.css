@@ -1,3 +1,9 @@
-ul {
-	
+nav {
+	background-color: whitesmoke;
+	width: 100%;
+	height:  10vh;
+}
+ul{
+	padding: 0;
+	margin:  10px 0;
 }
