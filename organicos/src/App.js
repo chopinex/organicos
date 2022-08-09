@@ -1,6 +1,7 @@
 import fondo from './fondo.jpg';
 import './App.css';
 import Menu from './components/Menu'
+import Producto from './components/Producto'
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
           Learn React
         </a>*/}
       </header>
+      <article>
+        <Producto text="café" />
+        <Producto text="semillitas" />
+        <Producto text="pisco" />
+      </article>
     </div>
   );
 }
